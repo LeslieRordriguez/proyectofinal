@@ -62,10 +62,20 @@ El diseño de este trabajo debe contener lo siguiente:
 29) Crear formulario y enviar formulario a un correo más los requerimientos en JavaScript solicitado por Mañon... Abrir formulario en una página en blanco. Esta sería la quinta página.
 
 		
-		QUE DEBE MOSTRAR EL VIDEO (TODO) en especial
+QUE DEBE MOSTRAR EL VIDEO (TODO) en especial:
+
 1) La página la mostraran abierta en su dominio.
 2) Menú desplegable(funcionando, es decir mostrar todas las página con sus contenidos.
 3) Que el formulario se envíe a un correo (abrir correo)
 4) Audios y videos
 5) Medias query
 
+RUTAS:
+
+| Endpoint | HTTP | Description |
+| --- | --- | ---|
+| `/` | GET | Pagina de Inicio |
+| `/servicio` | GET | Pagina de servicios |
+| `/nosotros` | GET | Pagina acerca de nosotros |
+| `/contacto` | GET | Pagina de contactame |
+| `/404` | GET | Pagina de 404 |
