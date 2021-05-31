@@ -1,0 +1,156 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Box Sizing*/
+.div2 {
+  width: 100%;
+  height: 90px;  
+  padding: 0;
+  background-color: white;
+  border: none;
+}
+
+#img1{
+  height: 100%;
+}
+
+/****Navegation Bar****/
+
+ul {
+    list-style-type: none;
+    margin: 100;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #030303;
+    width: 36%;
+    float: right;
+    text-align: center;
+    font-family: Helvetica;
+  }
+   
+  li {
+    float: right;
+  }
+   
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.AA) {
+    background-color: #8c2ca1;
+    color: white;
+  }
+  
+  li a.AA {
+    color: white;
+    background-color: #4CAF50;
+  }
+
+  /*Dropdown*/
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+    
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color:#711b86;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /****Image Gallery****/
+
+  div.gallery {
+    margin: 20px;
+    float: left;
+    width: 250px;
+  }
+ 
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-left: 90px;
+    border-radius: 10px;
+  }
+
+  #contenedor{
+    background-color: #d7b5df;
+  }
+  
+  /****Opasity/Transparency y Shadow****/
+
+  img:hover {
+    opacity: 0.5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #img1{
+    opacity: 100;
+    box-shadow: none;
+  }
+
+      /*footer*/
+
+      .all-browsers {
+        margin: 0;
+        padding: 5px;
+        background-color: lightgray;
+      }
+      
+      .all-browsers > h1, .browser {
+        margin: 10px;
+        padding: 5px;
+      }
+      
+      .browser {
+        background: white;
+      }
+      
+      .browser > h2, p {
+        margin: 4px;
+        font-size: 90%;
+      }
+      
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: rgb(92, 54, 180);
+        color: white;
+      }
+  
+      #b1{
+        color: #df7cc9;
+      }
